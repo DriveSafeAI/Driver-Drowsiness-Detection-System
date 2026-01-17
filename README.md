@@ -21,7 +21,7 @@ Real-time driver drowsiness detection system using YOLOv11 to monitor facial fea
 - **Real-time Detection**: Monitors driver state at 10 FPS
 - **Three-Class Classification**: Awake, Drowsy, Absent
 - **Multi-Level Alerts**: Visual (LED) + Audio (Buzzer)
-- **Low-Cost Hardware**: Total cost ~$200
+- **Low-Cost Hardware**: Total cost ~$150
 - **High Accuracy**: 99.06% on test set
 - **Embedded Ready**: Optimized for Raspberry Pi 5
 
