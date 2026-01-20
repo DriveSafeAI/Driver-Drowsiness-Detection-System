@@ -1,7 +1,5 @@
 
 import cv2
-import numpy as np
-import time
 import picamera2
 
 picam2 = picamera2.Picamera2()
@@ -25,3 +23,4 @@ try:
 finally:
     picam2.stop()
     cv2.destroyAllWindows()
+
