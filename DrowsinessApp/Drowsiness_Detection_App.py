@@ -1,7 +1,6 @@
 import sys
 import os
 import cv2
-import time
 from pygame import mixer 
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QLabel, QVBoxLayout, QPushButton,
@@ -367,4 +366,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
     
