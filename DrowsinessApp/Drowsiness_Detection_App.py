@@ -160,7 +160,7 @@ class DrowsinessApp(QWidget):
                 padding: 12px;
             }
             QLabel#title_label {
-                color: white;
+                color: white;  // color of title 
             }
         """)
 
@@ -170,6 +170,7 @@ class DrowsinessApp(QWidget):
         header_layout.addWidget(title)
         header_layout.addStretch()
         header_layout.addWidget(info_btn)
+        # add all elements in one hedear layout
         header_frame.setLayout(header_layout)
 
         # ------------ Video area ------------
@@ -239,7 +240,7 @@ class DrowsinessApp(QWidget):
         footer.setAlignment(Qt.AlignCenter)
 
         # ------------ Main layout (contains everything) ------------
-        main_layout = QVBoxLayout()
+        main_layout = QVBoxLayout()# vertial 
         main_layout.addWidget(header_frame)
         main_layout.addSpacing(12)
         main_layout.addWidget(self.video_label, stretch=1)
@@ -250,7 +251,7 @@ class DrowsinessApp(QWidget):
         main_layout.addSpacing(8)
         main_layout.addWidget(footer)
         main_layout.setContentsMargins(12, 12, 12, 12)
-        self.setLayout(main_layout)
+        self.setLayout(main_layout)# integrate everythings
 
     # ------------ Show Info Dialog ------------
     def show_info_dialog(self):
@@ -368,3 +369,4 @@ if __name__ == "__main__":
     main()
 
     
+
